@@ -9,11 +9,24 @@ body{
 .toolbox-cont{
     display:flex;
     flex-direction: row;
+    height: 60px;
     padding: 5px;
+    width: 100%;
     background-color: rgb(41, 41, 41);
     margin-top: 0px;
     border: 0px;
-    /* justify-content: space-around; */
+}
+
+.heading{
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 100%;
+    padding: 0;
+    border: 0;
+}
+.heading>p{
+    width: 300px;
 }
 
 .toolbox-priority-cont{
@@ -68,15 +81,17 @@ body{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
     padding-left: 50px;
-    width: 250px;
+    width: 50%;
 
 }
 
 .icon{
     background-color: grey;
     font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
     align-items: center;
     justify-content: center;
     padding: 5px;
